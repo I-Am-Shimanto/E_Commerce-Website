@@ -63,8 +63,8 @@ const Navbar = () => {
               <div className={`flex-1 justify-between flex-row-reverse lg:overflow-visible lg:flex lg:pb-0 lg:pr-0 lg:h-auto ${ state ? 'h-screen pb-20 overflow-auto pr-4' : 'hidden'}`}>
                     <div>
                         <ul className="flex flex-col-reverse space-x-0 lg:space-x-6 lg:flex-row">
-                            <li className="mt-8 mb-8 lg:mt-0 lg:mb-0">
-                                <Link className="text-xl font-semibold font-jakarta text-black hover:text-primary duration-[.3s] hover:scale-[1.1]">
+                            <li className="mt-4 lg:mt-0">
+                                <Link className="py-3 px-4 text-center text-white bg-indigo-600 hover:bg-primary duration-[.3s] rounded-md shadow block lg:inline">
                                     Contact
                                 </Link>
                             </li>
@@ -82,27 +82,27 @@ const Navbar = () => {
                     </div>
                     <div className="flex-1">
                         <ul className="justify-center gap-8 items-center space-y-8 mt-[5px] lg:flex lg:space-x-6 lg:space-y-0">
-                            <li>
+                            <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               Home <IoIosArrowDown />
                               </Link>
                             </li>
-                            <li>
+                            <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               TeeSpace <IoIosArrowDown />
                               </Link>
                             </li>
-                            <li>
+                            <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               Shop <IoIosArrowDown />
                               </Link>
                             </li>
-                            <li>
+                            <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               Blog <IoIosArrowDown />
                               </Link>
                             </li>
-                            <li>
+                            <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               Pages <IoIosArrowDown />
                               </Link>
