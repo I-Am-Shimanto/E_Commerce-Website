@@ -5,7 +5,7 @@ const Brand = () => {
     <>
       <div className="py-14 bg-[#F5F5F5]">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
-                <h3 className="text-[24px] font-bold font-jakarta text-black leading-[32px] w-[657px] mx-auto text-center">
+                <h3 className="text-[24px] font-bold font-jakarta text-black leading-[32px] w-full sm:w-[657px] mx-auto text-center">
                     “We've got custom T-shirts in a range of fits and sizes, so everyone can wear your brand or message.”
                 </h3>
                 <div className="mt-6">
