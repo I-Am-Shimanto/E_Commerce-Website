@@ -64,7 +64,7 @@ const Navbar = () => {
                     <div>
                         <ul className="flex flex-col-reverse space-x-0 lg:space-x-6 lg:flex-row">
                             <li className="mt-4 lg:mt-0">
-                                <Link className="py-3 px-4 text-center text-white bg-indigo-600 hover:bg-primary duration-[.3s] rounded-md shadow block lg:inline">
+                                <Link className="py-3 px-4 text-center text-white bg-indigo-600 hover:bg-primary duration-[.3s] rounded-md shadow block lg:inline mb-3">
                                     Contact
                                 </Link>
                             </li>
@@ -81,7 +81,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex-1">
-                        <ul className="justify-center gap-8 items-center space-y-8 mt-[5px] lg:flex lg:space-x-6 lg:space-y-0">
+                        <ul className="justify-center gap-8 items-center space-y-8 mt-[5px] lg:flex lg:space-x-6 lg:space-y-0 ">
                             <li className='flex justify-center items-center'>
                               <Link className='text-sm font-bold font-jakarta text-black hover:text-primary duration-[.3s] flex items-center gap-1 hover:scale-[1.1]'>
                               Home <IoIosArrowDown />
