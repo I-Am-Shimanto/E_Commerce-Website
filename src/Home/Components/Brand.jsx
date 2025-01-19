@@ -9,7 +9,7 @@ const Brand = () => {
                     “We've got custom T-shirts in a range of fits and sizes, so everyone can wear your brand or message.”
                 </h3>
                 <div className="mt-6">
-                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-12 lg:divide-x">
+                    <ul className="flex gap-y-6 flex-wrap items-center justify-center [&>*]:px-10 lg:divide-x">
                         <li className="flex-none">
                             <img src="images/spotify.png" alt="spotify" />
                         </li>
